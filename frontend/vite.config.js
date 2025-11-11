@@ -11,7 +11,11 @@ export default defineConfig({
         target: process.env.VITE_BACKEND_URL || 'http://localhost:8000',
         changeOrigin: true,
       }
-    }
+    },
+    allowedHosts: [
+      'exam-paper.onrender.com', // ✅ Add this line
+      'localhost',               // optional, allows localhost as well
+    ]
   },
   build: {
     outDir: 'dist',
