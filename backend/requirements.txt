@@ -35,7 +35,7 @@ langchain==0.3.7
 langchain-core==0.3.18
 langchain-community==0.3.5
 langchain-google-genai==1.0.7
-langsmith==0.1.99
+langsmith==0.1.126        # ✅ Updated to satisfy both core and main
 google-generativeai==0.7.2
 google-api-core==2.19.2
 google-auth==2.35.0
